@@ -1,0 +1,179 @@
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 1rem;
+}
+
+span {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  color: white;
+  transition: color 0.3s ease;
+}
+
+li:hover {
+  color: #ffa500; 
+}
+
+a {
+  text-decoration: none;
+}
+.footer {
+  background-color: #282c34;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+#foot {
+  margin: 0;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+#wholelog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.mainlog {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #555;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#bt {
+  background-color: #dc3545; 
+}
+
+#bt:hover {
+  background-color: #c82333; 
+}
+#main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 0 10px;
+}
+
+#inner {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 220px; /* Fixed width for consistency */
+  transition: transform 0.2s;
+}
+
+#inner:hover {
+  transform: scale(1.05);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+input[type="text"] {
+  height: 50px;
+  width: 50%;
+  margin: 20px auto;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  padding: 0 10px;
+  font-size: 16px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #418b72;
+}
+
+button {
+  background-color: #367263;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #aa9c64;
+}
+
+#btn2 {
+  background-color: #9cb3bd; /* Green color for "Buy now" */
+}
+
+#btn2:hover {
+  background-color: #216788; 
+}
